@@ -72,12 +72,11 @@ blockquote {
 }
 
 .dbox {
+    width: 30%;
     position: fixed;
     top: 20%; right: 0;
 
     margin: 2em;
-    min-width: 20em;
-    min-height: 20em;
     border: 1px solid white;
 
     padding: 1em;
