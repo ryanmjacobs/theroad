@@ -67,11 +67,14 @@ function get_text(key) {
         return ["slowly fading", "The tone here is of desolation. The world they knew is fading; all that remains is the dreams, and even those are fading. Nothing good and pure remains, except memories, and all of our memories fail us eventually."];
     else if (k == "phantom")
         return ["phantom", "The ghost of an old world still haunts the man and death lingers everywhere in this landscape."];
+    else
+        return [];
 }
 
 var tone_click = function() {
     var txt = get_text(this.innerHTML);
-    render_box(txt);
+    if (txt && txt.length == 2)
+        render_box(txt);
 };
 var tone_mouseover = function() {
     console.log(this);
