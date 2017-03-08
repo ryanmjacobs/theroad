@@ -12,6 +12,7 @@ function setOpacity(elements, val) {
     }
 }
 
+setOpacity(["h1"], 1);
 sr.reveal("h1", {duration: 4000, delay: 100, distance: "5px"});
 
 setTimeout(function() {
