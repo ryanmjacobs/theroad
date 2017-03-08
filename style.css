@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada|Ranga|Roboto+Slab|Open+Sans');
+
+body, html {
+    font-family: "Open Sans", sans-serif;
+
+    color: white;
+    background-color: black;
+
+    margin: 1em;
+    padding: 1em;
+}
+
+#main {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#aside {
+    position: absolute;
+    border: 1px solid white;
+}
+
+h1 {
+    font: 4em "Roboto Slab";
+    font-weight: normal;
+}
