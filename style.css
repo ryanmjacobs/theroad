@@ -13,7 +13,7 @@ body, html {
     user-select: none;
 }
 
-#main {
+section {
     float: left;
     max-width: 63%;
 
@@ -21,7 +21,7 @@ body, html {
     margin-left: 1em;
 }
 
-#aside {
+aside {
     width: 30%;
     float: right;
 
@@ -32,4 +32,8 @@ body, html {
 h1 {
     font: 4em "Roboto Slab";
     font-weight: normal;
+}
+
+p {
+    
 }
