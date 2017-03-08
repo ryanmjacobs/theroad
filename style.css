@@ -63,10 +63,8 @@ blockquote {
 }
 
 .end-quote:after {
-    display: relative;
-    display: block;
     content: "\201D";
-    font: 250% Lemonada;
+    font: 100% Lemonada;
 }
 
 .dbox {
