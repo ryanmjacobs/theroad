@@ -96,7 +96,14 @@ img {
     display: block;
     margin: 0 auto;
     height: auto;
+}
 
+#woods {
+    height: 20em;
+    filter: contrast(3);
+}
+
+.sat {
     filter: saturate(10) contrast(3);
 }
 
