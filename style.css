@@ -98,9 +98,19 @@ img {
     height: auto;
 }
 
+#rose {
+    width: 35%;
+    float: right;
+}
 #woods {
+    margin: 1em;
+    float: right;
     height: 20em;
     filter: contrast(3);
+}
+#peaches {
+    float: left;
+    margin: 1em;
 }
 
 .sat {
@@ -113,7 +123,7 @@ img {
 
 .tone {
     color: #333;
-    padding: 0 1px;
+    padding: 0 2px;
     display: inline;
     background-color: pink;
 }
