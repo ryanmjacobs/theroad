@@ -19,6 +19,8 @@ section {
 
     margin-top: 1em;
     margin-left: 1em;
+
+    margin-bottom: 2em;
 }
 
 aside {
@@ -111,14 +113,25 @@ img {
 #peaches {
     float: left;
     margin: 1em;
+    filter: grayscale(100%);
+}
+#arm-map {
+    width: 100%;
+    filter: contrast(1) brightness(80%);
+}
+#boy {
+    width: 40%;
+    float: left;
+    filter: grayscale(100%) contrast(1) brightness(30%);
+}
+#globe {
+    width: 40%;
+    float: right;
+    margin-left: 20px;
 }
 
 .sat {
     filter: saturate(10) contrast(3);
-}
-
-.bw {
-    filter: grayscale(100%);
 }
 
 .tone {
