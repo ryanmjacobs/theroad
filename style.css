@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lemonada|Ranga|Roboto+Slab|Open+Sans');
 
+h2,h3,hr,blockquote,.dbox,img {
+    opacity: 0;
+}
+
 body, html {
     font-family: "Open Sans", sans-serif;
 

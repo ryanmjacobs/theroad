@@ -11,7 +11,6 @@ function setOpacity(elements, val) {
         }
     }
 }
-setOpacity(["h2","h3","hr","blockquote",".dbox", "img"], 0);
 
 sr.reveal("h1", {duration: 4000, delay: 100, distance: "5px"});
 
