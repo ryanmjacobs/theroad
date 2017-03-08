@@ -62,6 +62,15 @@ blockquote {
     font: 250% Lemonada;
 }
 
+.end-quote:after {
+    position: absolute;
+    bottom: -40px; right: 7px;
+
+    display: block;
+    content: "\201D";
+    font: 250% Lemonada;
+}
+
 .dbox {
     position: fixed;
     top: 20%; right: 0;
