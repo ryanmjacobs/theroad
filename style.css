@@ -8,15 +8,24 @@ body, html {
 
     margin: 1em;
     padding: 1em;
+
+    cursor: default;
+    user-select: none;
 }
 
 #main {
+    float: left;
+    max-width: 63%;
+
     margin-top: 1em;
     margin-left: 1em;
 }
 
 #aside {
-    position: absolute;
+    width: 30%;
+    float: right;
+
+    min-height: 50vh;
     border: 1px solid white;
 }
 
