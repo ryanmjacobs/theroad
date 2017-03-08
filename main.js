@@ -52,19 +52,21 @@ function get_text(key) {
     var k = (key.split(" ")[0]);
 
     if (k == "mistrusted")
-        return ["Mistrusted", "This word contributes to the weary tone of the passage and the novel as a whole. He doesn’t trust things, even good things like pleasant dreams."];
+        return ["mistrusted", "This word contributes to the weary tone of the passage and the novel as a whole. He doesn’t trust things, even good things like pleasant dreams."];
     else if (k == "peril")
-        return ["Peril", "This adds to the threatened tone of the novel. There are very few instances of safety and comfort."];
+        return ["peril", "This adds to the threatened tone of the novel. There are very few instances of safety and comfort."];
     else if (k == "languor")
-        return ["Languor and Death", "These words remind the reader of the ever present threat of death and the tone of nothingness and blackness."];
+        return ["languor and death", "These words remind the reader of the ever present threat of death and the tone of nothingness and blackness."];
+    else if (k == "dark")
+        return ["dark", "Throughout the novel, the audience is reminded of the contrast between light and dark. There are two paths in the novel, with both figurative and literal grey coming between the light and dark ways."];
     else if (k == "if")
-        return ["If he lived ... would all be lost", "The phrasing of this sentence brings about the theme of sadness and uncertainty. There is the question of how long he will live, and how the world will fare during this post apocalyptic time. The sadness comes in when he talks of all of the world being lost. Everything will fade."];
+        return ["if he lived... all be lost", "The phrasing of this sentence brings about the theme of sadness and uncertainty. There is the question of how long he will live, and how the world will fare during this post apocalyptic time. The sadness comes in when he talks of all of the world being lost. Everything will fade."];
     else if (k == "blind")
-        return ["Blind", "Throughout the novel, the theme of sight and blindness is prevalent. The tone here is loss and sadness. He often feels like his life and journey are lacking direction. He can’t seem to see the way in front of him."];
+        return ["blind", "Throughout the novel, the theme of sight and blindness is prevalent. The tone here is loss and sadness. He often feels like his life and journey are lacking direction. He can’t seem to see the way in front of him."];
     else if (k == "fading")
         return ["slowly fading", "The tone here is of desolation. The world they knew is fading; all that remains is the dreams, and even those are fading. Nothing good and pure remains, except memories, and all of our memories fail us eventually."];
     else if (k == "phantom")
-        return ["Phantom", "The ghost of an old world still haunts the man and death lingers everywhere in this landscape."];
+        return ["phantom", "The ghost of an old world still haunts the man and death lingers everywhere in this landscape."];
 }
 
 var tone_click = function() {
