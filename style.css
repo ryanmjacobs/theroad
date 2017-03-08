@@ -73,14 +73,13 @@ blockquote {
 .dbox {
     width: 30%;
     position: fixed;
-    top: 20%; right: 0;
+    right: 0;
 
     margin: 2em;
     border: 1px solid white;
 
     padding: 1em;
 }
-
 .dbox-word {
     font-size: 2em;
     font-weight: bold;
@@ -88,10 +87,22 @@ blockquote {
 
     margin-bottom: 0.5em;
 }
-
 .dbox-definition {
     font-family: "Open Sans";
     padding-bottom: 0.75em;
+}
+#defin {
+    top: 10%;
+}
+#yt {
+    position: fixed;
+    bottom: 50%;
+    padding: 0;
+    border: none;
+}
+#yte {
+    position: fixed;
+    height: 20em;
 }
 
 img {
