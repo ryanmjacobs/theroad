@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lemonada|Ranga|Roboto+Slab|Open+Sans');
 
-h2,h3,hr,blockquote,.dbox,img {
+h1,h2,h3,hr,blockquote,.dbox,img {
     opacity: 0;
 }
 
