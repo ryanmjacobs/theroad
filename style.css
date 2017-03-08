@@ -63,9 +63,7 @@ blockquote {
 }
 
 .end-quote:after {
-    position: absolute;
-    bottom: -40px; right: 7px;
-
+    display: relative;
     display: block;
     content: "\201D";
     font: 250% Lemonada;
