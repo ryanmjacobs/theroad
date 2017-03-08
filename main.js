@@ -71,10 +71,18 @@ function get_text(key) {
         return [];
 }
 
+var tone_els = document.getElementsByClassName("tone");
+
 var tone_click = function() {
     var txt = get_text(this.innerHTML);
     if (txt && txt.length == 2)
         render_box(txt);
+
+    for (var i = 0; i < tone_els.length; i++ ) {
+        tone_els[i].classList.remove("tone-clicked");
+    }
+
+    this.classList.add("tone-clicked");
 };
 var tone_mouseover = function() {
     console.log(this);
@@ -83,7 +91,6 @@ var tone_mouseout = function() {
     console.log(this);
 };
 
-var tone_els = document.getElementsByClassName("tone");
 for (var i = 0; i < tone_els.length; i++ ) {
     var el = tone_els[i];
     el.onclick = tone_click;
