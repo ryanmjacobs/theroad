@@ -89,3 +89,12 @@ blockquote {
 .dbox-definition {
     font-family: "Open Sans";
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bw {
+    filter: grayscale(100%);
+}

@@ -11,7 +11,7 @@ function setOpacity(elements, val) {
         }
     }
 }
-setOpacity(["h2","h3","hr","blockquote",".dbox"], 0);
+setOpacity(["h2","h3","hr","blockquote",".dbox", "img"], 0);
 
 sr.reveal("h1", {duration: 4000, delay: 100, distance: "5px"});
 
@@ -27,8 +27,9 @@ setTimeout(function() {
 }, 1800);
 
 setTimeout(function() {
-    setOpacity(["blockquote"], 1);
+    setOpacity(["blockquote", "img"], 1);
     sr.reveal("blockquote", {duration: 5000, distance: "50px"});
+    sr.reveal("img", {duration: 5000, distance: "50px"});
 }, 3000);
 
 setTimeout(function() {
