@@ -61,3 +61,27 @@ blockquote {
     content: "\201C";
     font: 250% Lemonada;
 }
+
+.dbox {
+    position: fixed;
+    top: 20%; right: 0;
+
+    margin: 2em;
+    min-width: 20em;
+    min-height: 20em;
+    border: 1px solid white;
+
+    padding: 1em;
+}
+
+.dbox-word {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Roboto Slab";
+
+    margin-bottom: 0.5em;
+}
+
+.dbox-definition {
+    font-family: "Open Sans";
+}
