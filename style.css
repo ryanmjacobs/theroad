@@ -49,6 +49,7 @@ h2 {
 }
 
 blockquote {
+    line-height: 2em;
     font-size: 1.5em;
     font-family: Lemonada;
 }
@@ -95,8 +96,17 @@ img {
     display: block;
     margin: 0 auto;
     height: auto;
+
+    filter: saturate(10) contrast(3);
 }
 
 .bw {
     filter: grayscale(100%);
+}
+
+.tone {
+    color: #333;
+    padding: 0 1px;
+    display: inline;
+    background-color: pink;
 }
