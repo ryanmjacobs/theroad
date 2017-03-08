@@ -156,8 +156,11 @@ img {
     display: inline;
     background-color: pink;
     cursor: pointer;
-    transition: background-color 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
 }
 .tone-clicked {
     background-color: salmon;
+}
+#long-tone:hover {
+    padding: 4px 2px;
 }
