@@ -166,7 +166,7 @@ img {
 }
 
 .tt {
-    display: inline-block;
+    display: inline;
     border-bottom: 3px dotted goldenrod;
 }
 #tooltip {
