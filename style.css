@@ -32,7 +32,7 @@ aside {
     float: right;
 
     min-height: 50vh;
-    border: 4px solid white;
+    border: 1px solid white;
 }
 
 h1 {
@@ -167,7 +167,7 @@ img {
 
 .tt {
     display: inline-block;
-    border-bottom: 1px dashed goldenrod;
+    border-bottom: 3px dotted goldenrod;
 }
 #tooltip {
 	position:absolute;
@@ -175,14 +175,7 @@ img {
 	color:black;
 	padding:8px;
 	z-index:999;
-}
 
-#tooltip > h1 {
-    font-size: 2em;
-    font-weight: bold;
-    font-family: "Roboto Slab";
-}
-
-#tooltip > p {
-    font-family: "Open Sans";
+    font-size: 1.3em;
+    max-width: 22em;;
 }
